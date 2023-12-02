@@ -8,4 +8,4 @@ add_library(${PROJECT_NAME} INTERFACE IMPORTED GLOBAL)
 target_link_libraries(${PROJECT_NAME} INTERFACE ${SO_FILES} dl)
 target_include_directories(${PROJECT_NAME} INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/include)
 
-add_files(${OUT_LIB} "lib/lib*")
+add_files(${OUT_3RDLIB} "lib/lib*")
