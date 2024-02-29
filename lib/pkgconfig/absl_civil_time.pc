@@ -1,12 +1,12 @@
-prefix=./install
+prefix=/home/user/work/repos/protobuf/build/install
 exec_prefix=${prefix}
-libdir=./install/lib
-includedir=./install/include
+libdir=/home/user/work/repos/protobuf/build/install/lib
+includedir=/home/user/work/repos/protobuf/build/install/include
 
 Name: absl_civil_time
 Description: Abseil civil_time library
 URL: https://abseil.io/
-Version: 20230802
+Version: 20240116
 Requires:
 Libs: -L${libdir}  -labsl_civil_time 
 Cflags: -I${includedir} -DNOMINMAX
